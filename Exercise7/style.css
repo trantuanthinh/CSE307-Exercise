@@ -1,0 +1,49 @@
+.background {
+    background-image: url(https://i.gifer.com/XOsX.gif),
+        url(https://i.gifer.com/9hw9.gif);
+    background-repeat: repeat;
+    padding-bottom: 100%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form input {
+    border: 1px solid blue;
+}
+
+.form table {
+    padding: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 50px 0px red;
+}
+
+.form tr,
+td {
+    text-align: center;
+}
+
+#background-color {
+    background-color: aquamarine;
+}
+
+.go-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.go-to-top-button a {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.go-to-top-button a:hover {
+    background-color: #0056b3;
+}
